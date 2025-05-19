@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "paths": {
+      "@/*": ["./src/*"],
+      "@public/*": ["./public/*"],
+    },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
