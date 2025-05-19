@@ -9,8 +9,6 @@ import {
   Flame,
   FileText,
   ChevronRight,
-  MoreVertical,
-  X
 } from 'lucide-react';
 import { useState } from 'react';
 

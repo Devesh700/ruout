@@ -1,9 +1,11 @@
 {
   "files": [],
-  "paths": {
+  "compilerOptions": {
+    "paths": {
       "@/*": ["./src/*"],
-      "@public/*": ["./public/*"],
-    },
+      "@public/*": ["./public/*"]
+    }
+  },
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }

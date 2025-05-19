@@ -23,7 +23,6 @@ export default function PinVerification() {
     register,
     handleSubmit,
     formState: { errors },
-    reset,
   } = useForm({
     resolver: zodResolver(LoginSchema),
   });
@@ -53,6 +52,7 @@ export default function PinVerification() {
             disableUnderline: true,
             className: "rounded-full bg-white px-4 py-2"
           }}
+          helperText={errors?.pin?.message}
           InputLabelProps={{ shrink: true, className: "text-black text-[14px]" }}
         />
       </div>
